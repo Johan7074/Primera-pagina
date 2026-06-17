@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Copa Mundial de Fútbol 1994</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #006400;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      margin: 0;
+    }
+    section {
+      padding: 20px;
+    }
+    .equipos {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .equipos div {
+      background: #e0ffe0;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .mapa {
+      margin-top: 30px;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .mapa h2 {
+      text-align: center;
+    }
+    .torneo {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .fase {
+      flex: 1;
+      min-width: 200px;
+      margin: 10px;
+      padding: 10px;
+      background: #ffe0e0;
+      border-radius: 5px;
+    }
+    .fase h3 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .fase ul {
+      list-style: none;
+      padding: 0;
+    }
+    .fase li {
+      padding: 5px;
+      text-align: center;
+      background: #fff;
+      margin: 5px 0;
+      border-radius: 4px;
+    }
+    .campeon {
+      background: gold;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Copa Mundial de Fútbol 1994</h1>
+    <p>Estados Unidos</p>
+  </header>
+
+  <section>
+    <h2>Equipos participantes</h2>
+    <div class="equipos">
+      <div>Brasil</div>
+      <div>Italia</div>
+      <div>Argentina</div>
+      <div>Alemania</div>
+      <div>España</div>
+      <div>México</div>
+      <div>Estados Unidos</div>
+      <div>Colombia</div>
+      <div>Rumania</div>
+      <div>Bulgaria</div>
+      <div>Holanda</div>
+      <div>Suiza</div>
+      <div>Corea del Sur</div>
+      <div>Arabia Saudita</div>
+      <div>Nigeria</div>
+      <div>Grecia</div>
+      <div>Bolivia</div>
+      <div>Noruega</div>
+      <div>Irlanda</div>
+      <div>Suecia</div>
+      <div>Rusia</div>
+      <div>Camerún</div>
+      <div>Bélgica</div>
+      <div>Marruecos</div>
+    </div>
+  </section>
+
+  <section class="mapa">
+    <h2>Mapa conceptual del torneo</h2>
+    <div class="torneo">
+      <div class="fase">
+        <h3>Semifinales</h3>
+        <ul>
+          <li>Brasil vs Suecia → Brasil</li>
+          <li>Italia vs Bulgaria → Italia</li>
+        </ul>
+      </div>
+      <div class="fase">
+        <h3>Final</h3>
+        <ul>
+          <li class="campeon">Brasil vs Italia → Campeón: Brasil</li>
+        </ul>
+      </div>
+      <div class="fase">
+        <h3>Tercer puesto</h3>
+        <ul>
+          <li>Suecia vs Bulgaria → Suecia</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
