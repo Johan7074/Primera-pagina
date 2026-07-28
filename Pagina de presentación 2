@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Consola de Neo</title>
+<style>
+    body{
+        background-color:#000000;
+        color:white;
+        font-family:Arial, Helvetica, sans-serif;
+        margin:0;
+        padding:20px;
+    }
+
+    .contenedor{
+        width:80%;
+        margin:auto;
+        background-color:#1a1a1a;
+        padding:25px;
+        border-radius:15px;
+        box-shadow:0px 0px 10px #8000ff;
+    }
+
+    h1{
+        color:#b266ff;
+        text-align:center;
+        border-bottom:3px solid #8000ff;
+        padding-bottom:10px;
+    }
+
+    h2{
+        color:#c77dff;
+    }
+
+    p{
+        color:white;
+        font-size:18px;
+        text-align:justify;
+        line-height:1.6;
+    }
+
+    ol, ul{
+        background-color:#2b2b2b;
+        padding:20px;
+        border-left:5px solid #8000ff;
+        border-radius:10px;
+    }
+
+    li{
+        margin:8px 0;
+        color:white;
+    }
+
+    a{
+        display:inline-block;
+        text-decoration:none;
+        background-color:#8000ff;
+        color:white;
+        padding:10px 15px;
+        border-radius:8px;
+        transition:0.3s;
+    }
+
+    a:hover{
+        background-color:#5a00b3;
+    }
+
+    img{
+        width:300px;
+        display:block;
+        margin:auto;
+        border-radius:15px;
+        border:4px solid #8000ff;
+        box-shadow:0px 0px 8px #8000ff;
+    }
+</style>
+  </head>
+  <body>
+<h1>Johan Daniel Montealegre Romero</h1>
+<p>Soy <strong>Aprendiz de desarrollo de sofware</strong> y <strong>tutor virtual</strong>. Mi misión es <strong>aprender cosas nuevas</strong> y <strong>descubrir soluciones</strong>.</p>
+<h2>Habilidades de Operador</h2>
+<ul>
+    <li>Visual Studio Code</li>
+    <li>Git y GitHub</li>
+    <li>Línea de comandos (Terminal)</li>
+    <li>Docker</li>
+</ul>
+<h3>Próximos Lenguajes a Aprender</h3>
+<ol>
+    <li>TypeScript</li>
+    <li>Python</li>
+    <li>Rust</li>
+    <li>Go</li>
+</ol>
+
+<img src="https://www.shutterstock.com/image-vector/playful-cartoon-server-character-digital-260nw-2731610703.jpg">
+
+<p>Visita el sitio oficial: <a href="https://ie.edu" target="_blank">Sitio Web de la Universidad</a></p>
+
+</body>
+</html>
