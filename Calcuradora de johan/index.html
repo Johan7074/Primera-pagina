@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taller: Calculadora grasosa :v</title>
+  <link rel="stylesheet" href="poto.css" />
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="badge-sena">SENA - ADSO</div>
+      <h1>Taller: Calculadora del señor johan</h1>
+      <p>agrega numeros oni-chan! :3</p>
+    </header>
+
+    <section>
+      <div class="form-group">
+        <label for="num1">Primer Número (A):</label>
+        <input type="number" id="num1" value="10" />
+      </div>
+
+      <div class="form-group">
+        <label for="operacion">Operación:</label>
+        <select id="operacion">
+          <option value="sumar">Suma (+)</option>
+          <option value="restar">Resta (-)</option>
+          <option value="multiplicar">Multiplicación (×)</option>
+          <option value="dividir">División (÷)</option>
+          <option value="potencia">Potencia (**)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="num2">Segundo Número (B):</label>
+        <input type="number" id="num2" value="10" />
+      </div>
+
+      <div class="btn-group">
+        <button class="btn-calc" onclick="procesarCalculo()">Calcular Resultado</button>
+        <button class="btn-clear" onclick="borrar()">Limpiar (C)</button>
+      </div>
+
+      <div class="resultado-box">
+        <h3>Resultado: <span id="valorResultado">0</span></h3>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
